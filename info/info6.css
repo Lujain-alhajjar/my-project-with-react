@@ -1,0 +1,63 @@
+.info6 .text {
+    text-align: center;
+}
+.info6 .text h2{
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    margin-top: 5%;
+}
+.info6 .text p{
+    width: 50%;
+    margin-left: 25%;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8;
+    font-weight: 300;
+}
+.info6 .infoc{
+    display: flex;
+    margin: 5% 
+}
+.info6 .infoc .one{
+    margin-left: 15%;
+}
+.info6 .infoc > div{
+    width:calc(70%/3) ;
+    margin-left: 2%;
+}
+.info6 .infoc > div img{
+    width: 100%;
+    height: 55vh;
+    
+}
+.info6 .infoc > div .text {
+    text-align: left;
+}
+.info6 .infoc .text h6{
+    margin: 0;
+    margin-left: 10%;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    margin-top: 5%;
+}
+.info6 .infoc .text p{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    font-size: 0.875rem;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+}
+.info6 .infoc .one {
+    background-color:#e0e5eb ;
+}
+.info6 .infoc .two {
+    background-color:#ccd3db ;
+}
+.info6 .infoc .three {
+    background-color:#858e99 ;
+    color: white;
+}

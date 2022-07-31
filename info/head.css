@@ -1,0 +1,90 @@
+*{
+    font-family: 'Oswald', sans-serif ;
+}
+:root{
+    --main-color: #3e4a59;
+}
+.head{
+    height: 120vh;
+    background-image: url(./img/img1.jpeg);
+    background-size: cover;
+}
+.head h1{
+    color: var(--main-color);
+    font-size: 4.75rem;
+    width: 37%;
+    margin-top: 0%;
+    padding: 15% 10% 0;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0;
+
+}
+.head > p{
+    padding-left: 10%;
+    width: 35%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 2;
+    margin-bottom: 0;
+}
+.head > span:first-of-type{
+    padding-left: 10%;
+
+}
+.head > span,
+.head > a{
+    width: 35%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 2;
+}
+.head > p:last-of-type{
+    font-size: 20px;
+    margin-top: 2%;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background-color: var(--main-color);
+    width: 15%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-left: 10%;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.head .flex {
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.head .flex div{
+    width: 30%;
+    color: white;
+    padding-bottom: 5%;
+
+}
+.head .flex div p{
+    text-align: center;
+    margin: 7% 10% 0;
+}
+.head .flex div i,
+.head .flex div h3{
+    margin-top: 15%;
+}
+.head .flex div h3{
+    font-size: 1.5rem;
+}
+.head .flex div i{
+    font-size: 70px;
+}
+.head .flex .one{
+    background-color: #ccd3db;
+}
+.head .flex .two{
+    background-color: #858e99;
+}
+.head .flex .three{
+    background-color: #555d66;
+}

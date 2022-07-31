@@ -1,0 +1,51 @@
+.footer{
+    background-color: #858e99;
+    color: white;
+    padding: 10%;
+}
+.footer .text h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+.footer .text p{
+    font-family: 'Open Sans',sans-serif !important;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 5%;
+}
+.footer .form input:not(:last-of-type){
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+    padding: 1% 0;
+    border: none;
+    background-color: #555d66;
+    color: white;
+    padding-left: 1%;
+    font-size: 1.25rem;
+}
+.footer .form textarea{
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #555d66;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 10%;
+    color: white;
+    padding-left: 1%;
+    font-size: 1.25rem;
+
+}
+.footer .form input[type="submit"]{
+    margin-top: 3%;
+    width: 30%;
+    margin-left: 35%;
+    cursor: pointer;
+}

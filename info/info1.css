@@ -1,0 +1,45 @@
+.info1{
+    text-align: center;
+    margin-top: 25%;
+}
+.info1 h2{
+    font-weight: 200;
+    font-size: 2.75rem;
+    line-height: 1.1;
+}
+.info1 p{
+    width: 60%;
+    margin-left: 20%;
+    font-family: 'Open Sans',sans-serif !important;
+    font-size: 1.20rem;
+    line-height: 1.3;
+    text-align: center;
+    font-weight: 300;
+}
+.infoa{
+    display: flex;
+    margin: 5% 3%;
+}
+.infoa .left > div{
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+.infoa .left > div i{
+    color: #73a3de;
+    font-size: 50px;
+    margin-top: 70%;
+}
+.infoa .left > div .text{
+    margin-left: 5%;
+}
+.infoa .left > div .text h2{
+    font-weight: 200;
+    font-size: 1.75rem;
+}
+.infoa .left > div .text p{
+    font-family: 'Open Sans',sans-serif !important;
+    font-size: 1rem;
+    line-height: 1.3;
+    font-weight: 300;
+}
